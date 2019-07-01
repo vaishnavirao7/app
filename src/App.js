@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Badge from 'react-bootstrap/Badge';
 
 function App() {
   return (
@@ -19,9 +20,12 @@ function App() {
           Learn React
         </a> */}
         Hi! My name is Vaishnavi.
-      </header>
-    </div>
-  );
-}
-
-export default App;
+        <Badge pill variant="warning">
+          Made with React-Bootstrap!
+        </Badge>
+        </header>
+      </div>
+      );
+    }
+    
+    export default App;
